@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Currency Converter</title>
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/all.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container mt-5">
+            <div class="d-flex justify-content-center mt-5 ">
+                <div class="card " style="width:28rem; height:24rem; background-color:#5F9EA0;">
+                    <div class="display-6 text-center text-warning fw-bold">Convert</div>
+                    <div class="d-flex justify-content-between">
+                        <select class="fromSelect form-select ms-3 mt-3" aria-label="Default select example" style="width: 150px;" >
+                          </select> 
+                          <button class="convertBtn" type="button" style="width:0px; border: none; margin-right: 20px;">
+                            <i class="fa-solid fa-arrows-rotate fa-xl mt-4 " ></i>
+                          </button>
+                          <select class="toSelect form-select me-3 mt-3" aria-label="Default select example" style="width: 150px;" >
+                          </select> 
+                    </div>  
+                    <div class="position-relative">
+                        <input class="amount form-control position-absolute" type="text" placeholder="Amount Of Money" aria-label="default input example" style=" top:4pc;" >  
+                    </div> 
+                    <div class="amountValue position-relative display-6 ms-3 fw-bold text-warning" style=" top: 10pc;">
+
+                    </div>                              
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+
+        <script src="/js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    </body>
+</html>
